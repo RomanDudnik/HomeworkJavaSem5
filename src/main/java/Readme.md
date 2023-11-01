@@ -64,7 +64,7 @@ for (Student student : result) {
 1. `List<Student> result = students.stream()` 
    - создаем поток из списка студентов.
 
-2. `.filter(student -> student.getSpecialty().equals("Информатика"))`
+2. `.filter(student -> student.getSpecialty().equals("Computer science"))`
    - фильтруем студентов, оставляя только тех, у которых специальность равна "Информатика".
 
 3. `.filter(student -> student.getAvgGrade() > 4.5)`
